@@ -1,0 +1,12 @@
+### Recuperar todos los pokemones
+GET http://localhost:1234/pokemon/ditto
+
+### Crear un nuevo pokemon
+POST http://localhost:1234/pokemon
+Content-Type: application/json
+    
+    {
+        "name": "Ditto",
+        "type": "Normal",
+        "moves": ["Transform"]
+    }
